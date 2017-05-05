@@ -9,7 +9,7 @@ requirejs.config({
 
 requirejs(['jquery','cookie'],function($,cookie) {
 
-	console.log(check);
+	
 
 
 
@@ -114,7 +114,7 @@ requirejs(['jquery','cookie'],function($,cookie) {
 						<td>${v.format}</td>
 						<td>${v.normal_price}</td>
 						<td class="n5_price">${v.n5_price}</td>
-						<td class="n5_num"><input type="number" value="${v.num}"></td>
+						<td class="n5_num"><input type="number" min="1" value="${v.num}"></td>
 						<td class="xiaoji">${xiaoji}</td>
 						<td><a href="javascript:;">转入收藏夹</a></td>
 						<td ><a class="del" data-id="${v.id}" href="javascript:;">删除</a></td>
