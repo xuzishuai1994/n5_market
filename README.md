@@ -1,6 +1,6 @@
 # n5 market
 ---
 ### how to use
-1.npm install
-2.gulp watch
-3.http://localhost/*.html
+1.npm install<br />
+2.gulp watch<br />
+3.http://localhost/*.html<br />
