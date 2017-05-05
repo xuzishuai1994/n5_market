@@ -1,5 +1,6 @@
-<<<<<<< HEAD
-t_t
-=======
-# n5_market
->>>>>>> 67d55d77f3004e10c1bcdf9896c6730c3802d4da
+# n5 market
+---
+### how to use
+1.npm install
+2.gulp watch
+3.http://localhost/*.html
