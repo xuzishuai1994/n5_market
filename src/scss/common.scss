@@ -1,0 +1,14 @@
+$width: 1200px;
+$header_top_h: 33px;
+$header_bottom_h: 90px;
+$acolor: #666;
+
+
+.h_f {
+	position: fixed;
+	top: 0;
+	z-index: 99999999999999999999;
+	background: #000;
+	width: 100%;
+}
+

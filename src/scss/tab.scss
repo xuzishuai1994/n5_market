@@ -1,0 +1,460 @@
+#tap {
+	width: 100%;
+}
+
+#tap_con {
+	width: $width;
+	height: 478px;
+	margin: 0 auto;
+
+
+
+	.tap_tab {
+		background: url(../img/tabs_bg.jpg) repeat right bottom;
+		overflow: hidden;
+		position: relative;
+
+		li {
+			float: left; 
+			padding: 0 82px;
+			height: 40px;
+			width: 240px;
+			line-height: 40px;
+			text-align: center;
+			cursor: pointer;
+			color: #333;
+			border-bottom: 1px solid #ccc;
+			background: url(../img/tabsli_bg.jpg) no-repeat right top;
+
+
+
+
+
+			a {
+				color: #333;
+				font-family: microsoft yahei;
+			    font-size: 18px;
+			    font-weight: bold;
+			}
+		}
+
+
+		.arrow_outer {
+			position: absolute;
+		    top: 35px;
+		    left: 0;
+		    height: 5px;
+		    border-bottom: 2px solid #0094ff;
+		    
+		    text-align: center;
+		    width: 240px;
+
+
+		    .arrow_inner {
+		    	left: 50%;
+		    	display: inline-block;
+			    line-height: 0px;
+			    width: 0px;
+			    position: absolute;
+			    top: -7px;
+			    border: 5px solid #000;
+			    border-color: transparent transparent #0094ff;
+			    border-style: dashed dashed solid;
+			    z-index: 10;
+		    }
+		}
+
+	}
+
+	.tap_content {
+		position: relative;
+
+
+
+		&>li {
+
+			padding-top: 15px;
+			position: absolute;
+			top: 0;
+			left: 0;
+
+			&:nth-of-type(1) {
+				display: block;
+			}
+
+			&:nth-of-type(2) {
+				display: none;
+			}
+
+			&:nth-of-type(3) {
+				display: none;
+			}
+
+			&:nth-of-type(4) {
+				display: none;
+			}
+			&:nth-of-type(5) {
+				display: none;
+			}
+
+
+
+
+			.hot_items {
+				.hot_item {
+					    width: 228px;
+					    height: 394px;
+					    border: 1px solid #ededed;
+					    border-bottom: 4px solid #ededed;
+					    background: #f6f6f6;
+					    margin-right: 12px;
+					    padding: 10px;
+					    float: left;
+					    box-sizing: border-box;
+					    font-size: 12px;
+
+
+					img {
+						width: 193px;
+						height: 193px;
+					}
+
+					.img_tip {
+						line-height: 30px;
+						border-bottom: 1px solid #ccc;
+						font-size: 12px;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						   
+					}
+
+					.comment {
+						margin-bottom: 10px;
+
+
+
+						.user {
+							    font-weight: bold;
+							    color: #0099ff;
+							    margin-right: 7px;
+							    font-size: 12px;
+							    line-height: 18px;
+						}
+
+
+					}
+				}
+			}
+
+
+
+			.ming_items {
+
+
+
+
+				.ming_item {
+					float: left;
+				    width: 228px;
+				    margin-right: 12px;
+				    text-align: center;
+
+
+				    img {
+				    	width: 228px;
+				    	height: 300px;
+				    }
+
+				    .ming_title {
+				    	color: #444;
+				    	font-size: 12px;
+				    }
+
+				    .ming_author {
+				    	color: #666;
+				    	font-size: 12px;
+				    	text-align: left;
+				    	font-weight: bold;
+				    }
+
+
+				    .ming_content {
+				    	color: #0099ff;
+				    	line-height: 22px;
+				    	font-size: 12px;
+				    	text-indent: 24px;
+				    	background: url(../img/nrbg.jpg) no-repeat left top;
+				    	height: 52px;
+				    	overflow: hidden;
+				    	text-overflow: ellipsis;
+
+				    }
+				}
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			.c1 {
+				width: 239px;
+				float: left;
+
+				border-right: 1px solid #f1f1f1;
+
+				.c_title {
+					font-family: microsoft yahei;
+				    font-size: 14px;
+				    line-height: 18px;
+				    padding: 0 13px; 
+				    box-sizing: border-box;
+
+				    &:nth-of-type(2) {
+				    	margin-bottom: 10px;
+				    }
+				}
+
+				.c_content {
+
+				    font-family: microsoft yahei;
+				    font-size: 14px;
+				    line-height: 18px;
+				    overflow: hidden;
+				    padding: 0 13px;
+				    box-sizing: border-box;
+				    text-overflow: ellipsis;
+				    color: red;
+				    margin-bottom: 40px;
+				}
+
+				&>div {
+					font-size: 18px;
+				    font-family: microsoft yahei;
+				    color: #ff1a3a;
+				    padding: 0 13px;
+				    box-sizing: border-box;
+
+				    .dollar {
+				    	font-size: 24px;
+					    font-family: Arial, Helvetica, sans-serif;
+					    font-weight: bold;
+				    }
+
+				    .zhe_count {
+				    	    font-family: simsun;
+    						font-size: 12px;
+				    }
+				}
+
+				img {
+					width: 230px;
+					height: 230px;
+				}
+			}
+
+
+			.c2 {
+				width: 479px;
+				float: left;
+				border-right: 1px solid #f1f1f1;
+				
+
+
+
+				.c2_1 {
+					font-family: microsoft yahei;
+				    font-size: 14px;
+				    height: 200px;
+				    padding-bottom: 10px;
+				    line-height: 18px;
+				    padding: 0 13px;
+
+				    &:nth-of-type(1) {
+						border-right: 1px solid #f1f1f1;
+				    }
+				   
+				    
+				    box-sizing: border-box;
+				    float: left;
+
+				    &>img {
+				    	width: 150px;
+				    	height: 150px;
+				    }
+
+
+				    &>div {
+					font-size: 18px;
+				    font-family: microsoft yahei;
+				    color: #ff1a3a;
+				    padding: 0 13px;
+				    box-sizing: border-box;
+
+				    .dollar {
+				    	font-size: 24px;
+					    font-family: Arial, Helvetica, sans-serif;
+					    font-weight: bold;
+				    }
+
+				    .zhe_count {
+				    	    font-family: simsun;
+    						font-size: 12px;
+				    }
+				}
+				}
+
+				.c2_2 {
+					width: 479px;
+					border-top: 1px solid #f1f1f1;
+    				padding-top: 15px;
+    				float: left;
+    				
+
+    				img {
+    					float: left;
+    					width: 180px;
+    					height: 180px;
+    					margin: 0 20px;
+    				}
+
+    				.c2_2_content {
+    					padding: 0 13px;
+    					float:left;
+    					width: 220px;
+
+						
+						.c_title {
+							font-family: microsoft yahei;
+						    font-size: 14px;
+						    line-height: 18px;
+						    
+						    box-sizing: border-box;
+
+						    &:nth-of-type(2) {
+						    	margin-bottom: 10px;
+						    }
+						}
+
+						.c_content {
+
+						    font-family: microsoft yahei;
+						    font-size: 14px;
+						    line-height: 18px;
+						    overflow: hidden;
+						    
+						    box-sizing: border-box;
+						    text-overflow: ellipsis;
+						    color: red;
+						    margin-bottom: 40px;
+						}
+
+						&>div {
+							font-size: 18px;
+						    font-family: microsoft yahei;
+						    color: #ff1a3a;
+						    
+						    box-sizing: border-box;
+
+						    .dollar {
+						    	font-size: 24px;
+							    font-family: Arial, Helvetica, sans-serif;
+							    font-weight: bold;
+						    }
+
+						    .zhe_count {
+						    	    font-family: simsun;
+		    						font-size: 12px;
+						    }
+						}
+
+
+
+
+
+
+
+
+
+
+    				}
+				}
+			}
+
+			.c3 {
+				float: left;
+				width: 239px;
+
+
+				.c3_1 {
+					width: 239px;
+					text-align: center;
+
+					&:nth-of-type(1) {
+						border-bottom: 1px solid #f1f1f1;
+					}
+
+					img {
+						width: 150px;
+						height: 150px;
+					}
+
+
+					.c_title {
+						font-family: microsoft yahei;
+					    font-size: 14px;
+					    line-height: 18px;
+					    padding: 0 13px; 
+					    box-sizing: border-box;
+
+					    &:nth-of-type(2) {
+					    	margin-bottom: 10px;
+					    }
+					}
+
+
+					&>div {
+							font-size: 18px;
+						    font-family: microsoft yahei;
+						    color: #ff1a3a;
+						    
+						    box-sizing: border-box;
+
+						    .dollar {
+						    	font-size: 24px;
+							    font-family: Arial, Helvetica, sans-serif;
+							    font-weight: bold;
+						    }
+
+						    .zhe_count {
+						    	    font-family: simsun;
+		    						font-size: 12px;
+						    }
+						}
+
+
+
+
+				}
+
+			}
+		}
+	}
+}

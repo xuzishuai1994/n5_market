@@ -1,0 +1,33 @@
+@import "reset.scss";
+@import "common.scss";
+@import "header.scss";
+@import "nav.scss";
+@import "bottom.scss";
+@import "footer.scss";
+@import "go_top.scss";
+@import "LR.scss";
+
+
+
+
+.tabs {
+	display: none;
+	height: 574px;
+}
+
+.input_focus {
+	border: 1px solid #00008b;
+	background: #EAF5FF;
+}
+
+.input_fa {
+	border: 1px solid Maroon;
+    background-color: #FFFDDF;
+    color: #8B0000;
+}
+
+.cred {
+	color: #ff0000!important;
+}
+
+

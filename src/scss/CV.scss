@@ -1,0 +1,28 @@
+@import "reset.scss";
+@import "common.scss";
+@import "header.scss";
+@import "nav.scss";
+@import "banner.scss";
+@import "limit.scss";
+@import "tab.scss";
+@import "act.scss";
+@import "hufu.scss";
+@import "make.scss";
+@import "perfume.scss";
+@import "mens.scss";
+@import "news.scss";
+@import "bottom.scss";
+@import "footer.scss";
+@import "go_top.scss";
+
+.tabs {
+	min-height: 300px;
+	height: auto!important;
+	height: 300px;
+}
+
+.input_focus {
+	border: 1px solid #00008b;
+	background: #EAF5FF;
+}
+

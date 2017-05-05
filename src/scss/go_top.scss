@@ -1,0 +1,51 @@
+#go_top {
+	position: fixed;
+	width: 58px;
+	bottom: 8px;
+	right: 0;
+	z-index: 999999999999;
+
+	.top {
+		    font-family: microsoft yahei;
+		    font-size: 12px;
+		    color: #444;
+		    width: 56px;
+		    background: #fff;
+		    border: 1px solid #eee;
+		    padding: 8px 0;
+		    text-align: center;
+		    cursor: pointer;
+		    line-height: 33px;
+
+		 	span {
+				display: inline-block;
+				width: 22px;
+				height: 22.5px;
+				background: url(../img/kf.jpg) no-repeat left -24px;
+
+		 	}
+
+	}
+	.kefu {
+		    font-family: microsoft yahei;
+		    font-size: 12px;
+		    color: #444;
+		    width: 56px;
+		    background: #fff;
+		    border: 1px solid #eee;
+		    padding: 8px 0;
+		    text-align: center;
+		    cursor: pointer;
+		    line-height: 33px;
+		    margin-top: 5px;
+
+		 	span {
+				display: inline-block;
+				width: 22px;
+				height: 22.5px;
+				background: url(../img/kf.jpg) no-repeat left top;
+
+		 	}
+
+	}
+}

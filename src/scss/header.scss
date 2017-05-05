@@ -1,0 +1,231 @@
+header {
+	background: url(../img/headbg.jpg) repeat;
+	position: relative;
+	z-index: 9999999;
+}
+#header_top {
+	width: $width;
+	height: $header_top_h;
+	margin: 0 auto;
+	font-size: 12px;
+	
+	line-height: $header_top_h;
+	
+
+	.ht_left {
+		float: left;
+		a {
+			color: $acolor;
+		}
+	}
+
+	.ht_right {
+		float: right;
+		height: $header_top_h;
+
+		.item {
+			float: left;
+			text-align: center;
+			padding: 0 5px;
+
+			&.item_first {
+				border: 1px solid rgba(255,255,255,0);
+				box-sizing: border-box;
+
+			}
+
+			&.item_last i{
+				font-size: 15px;
+				color: #ff1a3a;
+
+			}
+
+
+
+			&>.sptel {
+				width: 16px;
+				height: 12px;
+				display: inline-block;
+				background: url(../img/detail.gif) no-repeat -269px -31px;
+				margin-right: 8px;
+			}
+
+			.spxia {
+				display: inline-block;
+				width: 7px;
+				height: 4px;
+				margin-left: 6px;
+				vertical-align: middle;
+				background: url(../img/detail.gif) no-repeat -252px -30px;
+			}
+
+			.htr_menu {
+				display: none;
+				
+				
+
+
+				li {
+					text-align: left;
+					line-height: 20px;
+					
+					&:hover a{
+						text-decoration: underline;
+						color: red;
+					}
+				}
+			}
+
+			a {
+				color: $acolor;
+			}
+
+		}
+
+	}
+}
+
+#top_s {
+	height:$header_bottom_h;
+	width: $width;
+	margin: 0 auto;
+	position: relative;
+
+	.logo {
+		float: left;
+		margin-top: 15px;
+		margin-left: 35px;
+		width: 150px;
+		height: 60px;
+		background: url(../img/logo.jpg) no-repeat left top;
+	}
+
+	.search {
+		border: 2px solid #02A3F0;
+		width: 428px;
+		height: 30px;
+		float: left;
+		font-size: 0;
+		margin-top: 22px;
+		margin-left: 170px;
+		position: relative;
+
+
+		.sbox_result {
+			position: absolute;
+			width: 359px;
+			background: #fff;
+			font-size: 12px;
+			border: 1px solid #02A3F0;
+			left: -2px;
+			z-index: 9;
+
+			li {
+				
+				cursor: pointer;
+				line-height: 25px;
+				overflow: hidden;
+
+
+				&:hover {
+					background: #eee;
+
+				}
+
+				.s_left {
+					float: left;
+					padding-left: 5px;
+					color: #000;
+				}
+
+				.s_right {
+					float: right;
+					padding-right: 5px;
+					color: #999;
+				}
+			}
+
+		}
+
+
+		.sbox {
+			height: 100%;
+			width: 357px;
+			border: none;
+			font-size: 16px;
+			text-indent: 5px;
+		}
+
+		.btn_s {
+			height: 100%;
+			width: 67px;
+			background: #02A3F0;
+			display: inline-block;
+			border: none;
+		}
+	}
+
+	.hot_box {
+		width: 428px;
+		height: 30px;
+		font-size: 12px;
+		float: left;
+		color: #666;
+		padding-top: 3px;
+		margin-left: 170px;
+
+
+		a {
+			color: #666;
+
+			&:hover {
+				text-decoration: underline;
+				color: red;
+			}
+
+			&.hot {
+				color: red;
+			}
+		}
+	}
+
+	.gouwu_car {
+		position: absolute;
+		z-index: 2;
+		width: 194px;
+		height: 42px;
+		right: 10px;
+		top: 20px;
+		background: url(../img/detail.gif) no-repeat left -30px;
+		font-size: 12px;
+		line-height: 44px;
+		text-indent: 70px;
+		border-bottom-left-radius: 20px;
+
+
+		.car_num {
+			color: red;
+		}
+
+
+	}
+
+	.car_inner {
+			display: none;
+			width: 292px;
+			height: 56px;
+			position:absolute;
+			background: #fff;
+			right: 10px;
+			box-sizing: border-box;
+			padding-top: 5px;
+			top: 60px;
+			border: 1px solid #ccc;
+			font-size: 12px;
+			line-height: 56px;
+			text-indent: 10px;
+	}
+
+}
+
+

@@ -1,0 +1,130 @@
+#banner {
+	width: 100%;
+	background: rgb(214,248,247);
+}
+
+
+
+#banner_con {
+	width: $width;
+	height: 400px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-left: 230px;
+	position: relative;
+
+	.lunbo {
+
+		height: 400px;
+		width: 765px;
+		float: left;
+		position: relative;
+
+		
+
+
+
+		.lunbo_imgs {
+			height: 400px;
+			position: relative;
+
+
+			img {
+				position: absolute;
+				opacity: 0;
+
+				&:nth-of-type(1) {
+					opacity: 1;
+				}
+			}
+		}
+
+		.lunbo_btns {
+			position: absolute;
+			z-index: 2;
+			width: 100%;
+			bottom: 0;
+			left: 0;
+
+
+			li {
+				overflow: hidden;
+				float: left;
+				background: #c8c8c8;
+				border-radius: 50%;
+				line-height: 22px;
+				margin-left: 10px;
+				margin-bottom: 10px;
+				text-align: center;
+
+				&:nth-of-type(1) {
+					background: #00b5ff;
+				}
+			}
+
+			a {
+				color: #000;
+				float: left;
+				font-size: 12px;
+				width: 22px;
+				height: 22px;
+				text-align: center;
+				line-height: 22px;
+				
+				
+				
+				
+			}
+
+		}
+	}
+
+	.banner_ad {
+		width: 190px;
+		float: right;
+		font-size: 0;
+
+	}
+
+	.ad_bottom {
+		position: absolute;
+		width: 969px;
+		padding-left:5px;
+		height: 180px;
+		bottom: -180px;
+
+		.tongzhi {
+			font-size: 0;
+			height: 18px;
+			line-height: 18px;
+			text-indent: 23px;
+			background:url(../img/detail.gif) no-repeat -410px -31px;
+
+			a {
+				font-size: 12px;
+				color: #666;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			
+		}
+
+
+		.ad_content {
+			overflow: hidden;
+
+
+			img {
+				height: 160px;
+				float: left;
+				margin-right: 5px;
+			}
+
+		}
+
+
+
+	}
+}

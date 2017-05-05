@@ -1,0 +1,185 @@
+#perfume {
+	width: 100%;
+}
+
+
+#perfume_con {
+	width: $width;
+	margin: 0 auto;
+
+	.perfume_title {
+		border-bottom: 2px solid #0094ff;
+    	margin-top: 24px;
+    	margin-bottom: 10px;
+    	overflow:hidden;
+
+		img {
+			float: left;
+		}
+
+		.perfume_more {
+			float: right;
+			height: 40px;
+			line-height: 40px;
+			font-size: 12px;
+
+			a {
+				font-size: 12px;
+				color: #666;
+				padding: 0 5px;
+				margin-right: 15px;
+
+				&.hot {
+					color: #ff1a3a!important;
+				}
+			}
+
+		}
+	}
+
+
+	.perfume_bottom {
+		    width: 1188px;
+		    height: 58px;
+		    
+		    border-top: 1px solid #e4e4e4;
+		    padding: 0 6px;
+		    box-sizing: content-box;
+		    overflow: hidden;
+
+		    img {
+		    	float: left;
+		    	margin: 11px 12px;
+		    }
+	}
+
+	.perfume_content {
+		overflow: hidden;
+		
+
+
+
+		.content_left {
+			float: left;
+		    width: 958px;
+		    height: 480px;
+
+		    .content_left_middle {
+		    	float: left;
+		    	width: 356px;
+		    	margin-right: 1px;
+
+		    	img {
+		    		float: left;
+		    		margin-left: 1px;
+
+		    		&:nth-of-type(1) {
+		    			margin-bottom: 1px;
+		    		}
+		    	}
+		    }
+
+		    img {
+		    	float: left;
+		    }
+		}
+
+
+		
+
+		.content_right {
+			    float: right;
+			    width: 218px;
+			    margin-left: 24px;
+
+			    h3 {
+			    	        font-family: microsoft yahei;
+						    font-size: 16px;
+						    line-height: 32px;
+						    height: 32px;
+						    color: #ff1a3a;
+						    text-align: center;
+						    width: 218px;
+						    border-bottom: 2px solid #d0d0d0;
+			    }
+
+			    .items {
+			    	width: 218px;
+
+
+			    	.item {
+			    		    border-bottom: 1px solid #e4e4e4;
+			    		    font-size: 12px;
+
+			    		    &:nth-of-type(1) .finall {
+			    		    	display: block;
+			    		    }
+
+			    		    &:nth-of-type(1) .before {
+			    		    	display: none;
+			    		    }
+ 
+
+			    		    .before {
+
+			    		    	    display: block;
+								    height: 42px;
+								    line-height: 42px;
+								    border-bottom: 1px solid #e4e4e4;
+								    padding: 0 8px;
+								    background: url(../img/topbg.jpg) no-repeat 7px 13px;
+								    overflow: hidden;
+								    text-overflow: ellipsis;
+								    box-sizing: content-box;
+
+
+			    		    	.num {
+			    		    		font-family: Arial, Helvetica, sans-serif;
+								    font-weight: bold;
+								    color: #e9025e;
+								    display: block;
+								    width: 22px;
+								    height: 42px;
+								    line-height: 44px;
+								    padding-left: 5px;
+								    float: left;
+								    font-size: 12px;
+			    		    	}
+			    		    }
+
+			    		    .finall {
+			    		    	text-align: center;
+			    		    	margin: 13px 0;
+			    		    	display: none;
+
+
+
+
+			    		    	img {
+			    		    		width: 160px;
+			    		    		height: 160px;
+			    		    	}
+
+			    		    	.title {
+			    		    		    height: 28px;
+									    line-height: 28px;
+									    overflow: hidden;
+									    text-overflow: ellipsis;
+									    font-weight: bold;
+			    		    	}
+
+			    		    	.price {
+			    		    		    font-family: microsoft yahei;
+									    font-size: 14px;
+									    color: #ff1a3a;
+									    font-weight: bold;
+			    		    	}
+			    		    }
+			    	}
+			    }
+
+
+		}
+	}
+
+}

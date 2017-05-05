@@ -1,0 +1,132 @@
+#bottom {
+	width: 100%;
+    height: 200px;
+    background: url(../img/f_03.jpg) repeat;
+    border-top: 1px solid #e1e1e1;
+     border-bottom: 1px solid #e1e1e1;
+    margin-top: 25px;
+    box-sizing: content-box;
+}
+
+
+#bottom_con {
+	width: $width;
+	
+	 padding-top: 25px;
+   
+	margin: 0 auto;
+	overflow: hidden;
+	
+
+	.b1 {
+		    float: left;
+		    width: 240px;
+		    padding-left: 44px;
+		    font-size: 12px;
+		    color: #666;
+		    box-sizing: content-box;
+
+		    .b1_1 {
+
+		    	    background: url(../img/detail.gif) no-repeat 0 -157px;
+				    height: 49px;
+				    width: 197px;
+
+					.b1_1_tel {
+						    color: #ff1a3a;
+						    font-size: 20px;
+						    font-family: Arial;
+						    padding-left: 72px;
+						    font-style: italic;
+						    font-weight: bold;
+						    padding-top: 8px;
+						    font-size: 18px;
+						    box-sizing: content-box;
+
+					}
+
+					.b1_1_time {
+						
+						    color: #444;
+						    text-align: right;
+						    width: 197px;
+
+					}
+		    }
+
+		    .weibo {
+		    	    background: url(../img/w.jpg) no-repeat;
+				    width: 197px;
+				    height: 22px;
+				    line-height: 22px;
+				    font-family: microsoft yahei;
+				    margin-top: 10px;
+				    font-size: 14px;
+				    font-weight: bold;
+				    padding-left: 30px;
+				    font-size: 0;
+				    vertical-align: top;
+
+				    p {
+				    	display: inline-block;
+				    	font-size: 14px;
+				    }
+
+				    img {
+				    	vertical-align: top;
+				    	margin-left: 4px;
+				    }
+
+
+		    }
+
+		    .email {
+		    	    margin-top: 10px;
+
+		    	    input {
+		    	    	    width: 132px;
+						    height: 24px;
+						    line-height: 24px;
+						    background: #fff;
+						    border: 1px solid #e8e8e8;
+						    color: #666;
+						    padding-left: 4px;
+						    font-size: 12px;
+						    outline: 0 none;
+		    	    }
+
+		    	    img {
+		    	    	vertical-align: top;
+		    	    }
+		    }
+	}
+
+	.b2 {
+		li {
+			    float: left;
+			    width: 100px;
+			    padding-left: 25px;
+			    border-left: 1px solid #e1e1e1;
+			    height: 150px;
+			    box-sizing: content-box;
+			    font-size: 12px;
+
+			    h3 {
+			    	margin-bottom: 14px;
+			    	font-size: 16px;
+				    color: #444;
+				    font-family: microsoft yahei;
+			    }
+
+			    p {
+			    	    height: 22px;
+					    line-height: 22px;
+					    color: #999;
+			    }
+		}
+	}
+
+
+}
+
+
